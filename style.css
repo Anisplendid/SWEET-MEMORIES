@@ -1,0 +1,75 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://media.istockphoto.com/id/1914436094/photo/valentines-day-couple-in-love-at-home.jpg?s=612x612&w=0&k=20&c=wRuFwqiSejUr3JRZutHmhO0UphTTwm9W1fph3EhvjX0=');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; 
+     /* Centers the image */
+}
+
+header, h1 {
+    background-color: #6c0b0b;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2 {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #94123d;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+.card img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Creates 1 column */
+    grid-gap: 20px; /* Adds space between grid items */
+    justify-content: center; /* Centers the grid items horizontally */
+    padding: 20px;
+}
+
+.card {
+    margin: 0 auto; /* Centers the card within the grid item */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+button {
+    background-color: #ff4081; /* Pink background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #e91e63; /* Darker pink on hover */
+}
